@@ -78,6 +78,7 @@ class _MovieDetailsState extends State<MovieDetails> {
       torrents: eachElement["torrents"],
       title: eachElement["title"],
     );
+    //model made here
     List<Widget> tempListTorrent = List();
     for (int i = 0; i < detailModel.torrents.length; i++) {
       Map eachElement = detailModel.torrents[i];
